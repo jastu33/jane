@@ -16,3 +16,27 @@
     <template>¿voy a pedir pizza de que te gustaria comer? </template>
 </category>
 
+<category>
+    <pattern>* entradas</pattern>
+    <template>
+        <srai>entradas</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>hola</pattern>
+    <template>
+        <random>
+            <li>bienvenido ¿quieres saber cuales son las entradas o te doy consejos para que no enfermes de gripa?</li>
+            <li>Buend dia¿toma entrada o toma una medicina?</li>
+            <li>sea bienvenido.¿te digo las entradas o pues hablamos despues?</li>
+            <li>Muy buen dia¿quieres saber las entradas o elige que vas a tomar para la gripe</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Que * frio</pattern>
+    <template>una enorme disculpa, pero ese dato no lo se</template>
+</category>
+
